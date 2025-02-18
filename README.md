@@ -173,6 +173,15 @@ The following images illustrate different sections of the system:
 
 ---
 
+## 👤 Author
+**Rohan Patil** <br> 
+GitHub: [@RohanPatil2](https://github.com/RohanPatil2)<br>
+**Shreyas Khandale**<br>
+Github: [@sherurox](https://github.com/sherurox).<br>
+
+
+---
+
 ## **License**  
 This project is licensed under the **MIT License**.  
 
