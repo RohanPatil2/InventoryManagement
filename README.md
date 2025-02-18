@@ -3,17 +3,17 @@
 # **Sales and Inventory Management Web Application**  
 
 ## **Project Overview**  
-The **Sales and Inventory Management Web Application** is a robust system designed to help **mobile phone retailers** efficiently manage their inventory, sales, and orders. This system provides **real-time monitoring** of stock levels, detailed **sales analysis**, and a **user-friendly interface** for managing products, categories, and brands.  
+The **Sales and Inventory Management Web Application** is designed to streamline **mobile phone store operations**, enabling **real-time inventory tracking, order processing, and sales analysis**.
 
 ### **Key Features**  
-- **User Authentication**: Secure admin login.  
-- **Product Management**: Add, edit, delete products with SKU, images, price, and stock count.  
-- **Inventory Tracking**: View low-stock & out-of-stock items and replenish them.  
-- **Order Management**: Track customer orders and view sales history.  
-- **Category & Brand Management**: Organize products efficiently.  
-- **Sales Analysis**: Interactive charts for brand and category-wise sales.  
-- **Purchase History**: Maintain past transactions and restock logs.  
-- **Dashboard Overview**: Get insights into store performance.  
+✅ **User Authentication**: Secure admin login.  
+✅ **Product Management**: Add, edit, delete products with SKU, images, price, and stock count.  
+✅ **Inventory Tracking**: Monitor stock levels & replenish items.  
+✅ **Order Management**: Track customer orders and view sales history.  
+✅ **Category & Brand Management**: Organize products efficiently.  
+✅ **Sales Analysis**: Interactive charts for brand and category-wise sales.  
+✅ **Purchase History**: Maintain past transactions and restock logs.  
+✅ **Dashboard Overview**: Get insights into store performance.  
 
 ---
 
@@ -65,44 +65,45 @@ Password: admin
 ## **Application Modules & Screenshots**  
 
 ### **1. Login Page**  
-📌 *File: Picture1.jpg*  
+![Login Page](Picture1.jpg)  
 - Secure **admin authentication** to access the system.  
-- User credentials are validated against the database.  
 
 ---
 
 ### **2. Dashboard Overview**  
-📌 *File: Picture7.jpg*  
+![Dashboard](Picture7.jpg)  
 - Displays **Total Products, Paid Orders, Categories, and Brands**.  
 - Interactive **Sales Analysis** using Google Charts.  
-- Gives **quick insights** into store performance.  
 
 ---
 
 ### **3. Product Management**  
-📌 *Files: Picture1.jpg, Picture2.jpg, Picture3.jpg, Picture10.jpg*  
+![Product List](Picture2.jpg)  
 - **Add, edit, delete products** with SKU, name, price, quantity, and image.  
 - **Stock status** is displayed as **Active (green)** or **Inactive (red)**.  
-- When deleting a product, a **confirmation dialog** appears (Picture10.jpg).  
+
+📌 **Delete Confirmation**  
+![Delete Product](Picture10.jpg)  
+- A confirmation pop-up appears when a product is deleted.  
 
 ---
 
 ### **4. Inventory Tracking**  
-📌 *File: Picture5.jpg*  
+![Low Stock & Out of Stock](Picture5.jpg)  
 - Displays **Out-of-Stock** and **Low-Level Stock** items.  
 - Admin can **replenish stock** directly with the click of a button.  
 
 ---
 
 ### **5. Category & Brand Management**  
-📌 *File: Picture4.jpg*  
+![Category Management](Picture4.jpg)  
 - Manage **product categories** (Smartphones, Tablets, Accessories, etc.).  
 - Categories can be **edited, deleted, or set as unavailable**.  
 
 ---
 
 ### **6. Order Management**  
-📌 *File: Picture8.jpg*  
+![Order Management](Picture8.jpg)  
 - View **customer orders** with details such as:  
   - **Bill Number**  
   - **Customer Name & Phone**  
@@ -112,14 +113,14 @@ Password: admin
 ---
 
 ### **7. Purchase History**  
-📌 *File: Picture9.jpg*  
+![Purchase History](Picture9.jpg)  
 - Maintains **transaction records** of past purchases.  
 - Includes **timestamps, product details, and remarks**.  
 
 ---
 
 ### **8. Sales Analysis**  
-📌 *File: Picture6.jpg*  
+![Sales Analysis](Picture6.jpg)  
 - Provides **visual analytics** of sales using pie charts.  
 - Two charts:  
   - **Phone Brand Sales Analysis** (Apple, Huawei, Samsung).  
@@ -128,28 +129,21 @@ Password: admin
 
 ---
 
-### **9. Product Deletion Confirmation**  
-📌 *File: Picture10.jpg*  
-- When deleting a product, a **confirmation pop-up** appears.  
-- Displays **Product Image, Name, and OK/Cancel buttons**.  
-
----
-
 ## **Screenshots Directory**  
 The following images illustrate different sections of the system:  
 
 | **Image**  | **Description** |
 |------------|---------------|
-| **Picture1.jpg**  | Add New Product Page  |
-| **Picture2.jpg**  | Product List (Inventory)  |
-| **Picture3.jpg**  | Updated Stock Page  |
-| **Picture4.jpg**  | Category Table  |
-| **Picture5.jpg**  | Low-Stock & Out-of-Stock Products  |
-| **Picture6.jpg**  | Sales Analysis Dashboard  |
-| **Picture7.jpg**  | Admin Dashboard  |
-| **Picture8.jpg**  | Order Management Page  |
-| **Picture9.jpg**  | Purchase History Page  |
-| **Picture10.jpg** | Product Deletion Confirmation  |
+| ![Picture1](Picture1.jpg) | Add New Product Page  |
+| ![Picture2](Picture2.jpg) | Product List (Inventory)  |
+| ![Picture3](Picture3.jpg) | Updated Stock Page  |
+| ![Picture4](Picture4.jpg) | Category Table  |
+| ![Picture5](Picture5.jpg) | Low-Stock & Out-of-Stock Products  |
+| ![Picture6](Picture6.jpg) | Sales Analysis Dashboard  |
+| ![Picture7](Picture7.jpg) | Admin Dashboard  |
+| ![Picture8](Picture8.jpg) | Order Management Page  |
+| ![Picture9](Picture9.jpg) | Purchase History Page  |
+| ![Picture10](Picture10.jpg) | Product Deletion Confirmation  |
 
 ---
 
@@ -183,5 +177,3 @@ The following images illustrate different sections of the system:
 This project is licensed under the **MIT License**.  
 
 ---
-
-This **detailed `README.md`** includes **setup, features, images, explanations, and troubleshooting tips** to make the project easy to understand and use. 🚀 Let me know if you need further modifications! 🚀
